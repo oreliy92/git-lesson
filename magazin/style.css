@@ -70,10 +70,27 @@ body{
 }
 .head-contact{
     float:right;
-    background: #f8fafb url(images/phone-img.jpg) no-repeat 20px 250px;
+    background: #f8fafb url(images/phone-img.jpg) 250px 8px no-repeat;
     border: 2px solid #edf2f6;
-    border-radius: 0 0 2px 2px;
-    margin:2px 3px 0 0;
+    border-radius: 0 0 10px 10px;
+    margin:0px 6px 0 0;
+    padding: 5px 65px 5px 15px;
+    text-align: right;
+    line-height: 1.3;
+    
+}
+.head-contact p{
+    font-size: 12px;
+    font-family: Verdana;
+    margin-bottom: 3px;
+}
+.head-contact p b{
+    font-size: 14px;
+    font-weight: normal;
+}
+.head-contact p span{
+    font-size: 21px;
+    font-weight: bold;
 }
 .search-head{
     float: right;
