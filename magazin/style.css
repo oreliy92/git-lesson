@@ -115,3 +115,27 @@ body{
 .search-btn{
     margin:8px 0 0 5px;
 }
+.menu{
+    background: url(images/menu-bg.jpg) top repeat-x;
+    display: table-row;
+    list-style: none;
+    width: auto;
+    text-align: center;
+    height: 50px;
+}
+.menu li{
+    display: table-cell;
+    border-left: 1px solid #2b96cd;
+    border-right: 1px solid #0c5985;
+}
+.menu li a{
+    display: block;
+    width: 1000px;
+    height: 50px;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: Verdana;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
