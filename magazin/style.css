@@ -70,4 +70,11 @@ body{
 }
 .head-contact{
     float:right;
+    background: #f8fafb url(images/phone-img.jpg) no-repeat 20px 250px;
+    border: 2px solid #edf2f6;
+    border-radius: 0 0 2px 2px;
+    margin:2px 3px 0 0;
+}
+.search-head{
+    float: right;
 }
