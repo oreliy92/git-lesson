@@ -153,7 +153,7 @@ body{
     background: #004c78;
 }
 #contentwrapper{
-    background: white;
+    /*background: white;*/
     float: left;
     width: 100%;
 }
@@ -162,10 +162,62 @@ body{
     margin: 0 245px 0 240px;
 }
 #left-bar{
-    background: green;
+ 
     float: left;
     width: 240px;
     margin-left: -100%;
+    
+}
+.left-bar-cont{
+    background: #f7f7f7;
+    margin:6px 0 0 6px;
+}
+.left-bar-cont h2{
+    font-family:Verdana;
+    font-size: 18px;
+    color:#fff;
+    font-weight: normal;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2db1d7+0,0071ac+100,7db9e8+100 */
+background: #2db1d7; /* Old browsers */
+background: -moz-linear-gradient(left, #2db1d7 0%, #0071ac 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #2db1d7 0%,#0071ac 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #2db1d7 0%,#0071ac 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+    border-radius: 4px 4px 0 0;
+    padding: 5px 0 5px 10px;
+    
+}
+.nav-new{
+    
+    background: url(images/new.jpg) left center no-repeat;
+    border-bottom: 1px solid #e1e1e1;
+    
+}
+.nav-lider{
+    
+    background: url(images/leader.jpg) left center no-repeat;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #fff;
+    
+    
+}
+.nav-sale{
+    
+    background: url(images/sale.jpg) left center no-repeat;
+    border-top: 1px solid #fff;
+    
+}
+.nav-new,.nav-lider,.nav-sale{
+    padding: 12px 0 12px 55px;
+}
+.nav-new a,.nav-lider a,.nav-sale a{
+   color: #000;
+    font: bold 14px Verdana;
+    text-decoration: none;
+    
+}
+.nav-new a:hover,.nav-lider a:hover,.nav-sale a:hover{
+    text-decoration: underline;
     
 }
 #right-bar{
