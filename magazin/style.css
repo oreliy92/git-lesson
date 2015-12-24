@@ -241,3 +241,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
     width: 245px;
     margin-left: -245px;
 }
+.nav-catalog{
+    padding: 10px 10px 20px 55px;
+    list-style: url(images/ul.jpg);
+   border-bottom: 1px solid #e1e1e1;
+}
+
+.nav-catalog li{
+    margin: 0 0 5px 0;
+    
+}
+.nav-catalog li a{
+    font:14px Verdana;
+    color: black;
+    font-weight: bold;
+    text-decoration:none;
+    
+}
+.nav-catalog li a:hover{
+    font:14px Verdana;
+    color: #1b7cb1;
+    font-weight: bold;
+    text-decoration:none;
+    
+}
+.nav-catalog ul li{
+    margin: 0 0 0 0;
+    
+}
+.nav-catalog ul{
+    padding: 5px 0 0 20px;
+    
+}
+.bar-contact{
+     border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0 20px 15px;
+    color:#000;
+    font-family: Verdana, sans-serif; 
+}
+.bar-contact h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+.bar-contact p{
+    font-size: 14px;
+    margin:15px 0 0 0;
+}
+.bar-contact p span{
+    font-size: 18px;
+    font-weight: bold;
+}
