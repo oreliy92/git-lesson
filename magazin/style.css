@@ -291,3 +291,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
     font-size: 18px;
     font-weight: bold;
 }
+.news
+{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0 20px 15px;
+    font-family: Verdana, sans-serif; 
+}
+.news h3{
+    font-size: 16px;
+    font-weight: normal;
+}
+.news p{
+    margin:15px 0 0 0;
+}
+.news p span{
+   background:#e7e7e7;
+    color: #7f7f7f;
+    font-size: 10px;
+    padding:1px 7px;
+}
+.news a{
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
+.news a:hover{
+  text-decoration: none;
+}
+.news-arch{
+    border: 1px solid #fff;
+    padding: 10px 5px 10px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: #666 0px 0px 7px;
+    -moz-box-shadow: #666 0px 0px 7px;
+    box-shadow: #eeeeee 0px 0px 7px;
+    background: #eaeaea;
+    behavior: url(/pie/PIE.htc);
+    width: 105px;
+    margin-top: 15px !important;
+}
