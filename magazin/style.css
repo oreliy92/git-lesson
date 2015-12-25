@@ -153,13 +153,55 @@ body{
     background: #004c78;
 }
 #contentwrapper{
-    /*background: white;*/
+    background: white;
     float: left;
     width: 100%;
 }
 #content{
-    background: gray;
+    
     margin: 0 245px 0 240px;
+}
+.main-bar{
+    overflow: hidden;
+}
+.main-bar h1{
+    text-align: center;
+    margin:15px 0 20px 0;
+}
+.telephone{
+    text-align: center;
+    width: 50%;
+   float: left;
+    margin-bottom: 50px;
+    
+}
+.telephone h2{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #5ab3e2;
+    margin-bottom: 10px;
+}
+
+.telephone h2 a{
+    color: #5ab3e2;
+}
+.telephone h2 a:hover{
+    color: #5ab3e2;
+    text-decoration: none;
+    
+}
+.telephone p{
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.telephone p span{
+    font-size: 30px;
+    font-family:Candara;
+    font-weight: normal;
+    
 }
 #left-bar{
  
@@ -356,10 +398,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
 }
 .money h3{
     font-size: 16px;
+    margin-bottom: 15px;
 }
 .delivery h3{
     font-size: 16px;
+    margin-bottom: 15px;
 }
+
 .info h3{
-    font-size: 16px;
+    font-size:16px;
+     margin-bottom: 15px;
 }
+.money p,.delivery p,.info p{
+    color:#8b8b8b;
+    margin-bottom: 10px;
+    
+}
+.money a,.delivery a,.info a{
+    color:#8b8b8b;
+   
+}
+.money a:hover,.delivery a:hover,.info a:hover{
+    color:#8b8b8b;
+   text-decoration: none;
+}
+
