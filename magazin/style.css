@@ -550,7 +550,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
     font: 14px Verdana;
     overflow: hidden;
     margin: 15px auto 0 auto;
-   width: 360px;
+   width: 350px;
 }
 .fmenu p{
     text-align: center;
@@ -559,7 +559,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
 .fmenu ul{
     float: left;
     list-style: none;
-    margin: 15px;
+    margin:20px 0 0 30px;
 }
 .fmenu ul li{
     margin: 0 0 5px 0;
