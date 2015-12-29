@@ -161,6 +161,9 @@ body{
     
     margin: 0 245px 0 240px;
 }
+.main{
+    overflow: hidden;
+}
 .main-bar{
     overflow: hidden;
 }
@@ -301,6 +304,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
     border-radius: 4px 4px 0 0;
     padding: 5px 0 5px 10px;
 }
+.enter{
+    margin:0 0 10px 0;
+}
+.enter div{
+    background: #f0f0f0;
+    padding: 15px 0;
+
+}
+.enter div img{
+    display: block;
+    margin: auto;
+}
+.bascet{
+    margin:0 0 10px 0;
+}
+.bascet div{
+    background: #f0f0f0;
+    padding: 15px 0;
+
+}
+.bascet div img{
+    display: block;
+    margin: auto;
+}
+.bascet div p{
+    padding: 0 0 15px 20px;
+    line-height: 1.9;
+    font-size: 15px;
+    font-family: Verdana;
+}
+.bascet div p span{
+    color:#67a2c6;
+}
+
+
+
+
 .nav-catalog{
     padding: 10px 10px 20px 55px;
     list-style: url(images/ul.jpg);
