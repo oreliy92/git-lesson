@@ -480,4 +480,87 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
     color:#8b8b8b;
    text-decoration: none;
 }
+.search-bar{
+    margin:0 0 10px 0;
+}
+.search-bar div{
+    font-family: Verdana;
+    font-style: 12px;
+    padding: 10px 10px 25px 10px;
+    background: #f0f0f0;
+}
+.search-bar div p{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+.search-bar div select{
+    width: 200px; 
+    font-size:14px;
+    padding: 5px;
+    font-family: Verdana;
+}
+.podbor-price{
+    width: 60px;
+    text-align: right;
+    font-size: 12px;
+    padding: 3px;
+    border:1px solid #959b9e;
+}
+.podbor{
+    display: block;
+    width: 170px;
+    margin: 20px auto 0 auto;
+    
+}
+.clear{
+    clear: both;
+}
+.footer{
+    background: url(images/footer-bg.jpg) top repeat-x;
+    height: 132px;
+    overflow: hidden;
+    color: rgba(255,255,255,0.7);
+        
+}
+.flogo{
+    float: left;
+    margin: 35px 0 0 20px;
+    
+}
+.flogo p{
+    margin: 10px  0 0 0;
+    font:bold 14px Verdana;
+}
+.fphone{
+    float: right; 
+    text-align: right;
+    font: 12px Verdana;
+    margin: 15px 20px 0 0;
+    
+}
 
+.fphone h2{
+    font-size: 14px;
+}
+.fphone h1{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.fmenu{
+    font: 14px Verdana;
+    overflow: hidden;
+    margin: 15px auto 0 auto;
+   width: 360px;
+}
+.fmenu p{
+    text-align: center;
+    
+}
+.fmenu ul{
+    float: left;
+    list-style: none;
+    margin: 15px;
+}
+.fmenu ul li{
+    margin: 0 0 5px 0;
+}
