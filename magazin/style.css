@@ -278,10 +278,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', end
     
 }
 #right-bar{
-    background: red;
+    
     float: left;
     width: 245px;
     margin-left: -245px;
+}
+.right-bar-cont{
+   
+    margin:6px 6px 0 0;
+}
+.right-bar-cont h2{
+       font-family:Verdana;
+    font-size: 18px;
+    color:#fff;
+    font-weight: normal;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2db1d7+0,0071ac+100,7db9e8+100 */
+background: #2db1d7; /* Old browsers */
+background: -moz-linear-gradient(left, #2db1d7 0%, #0071ac 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #2db1d7 0%,#0071ac 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #2db1d7 0%,#0071ac 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db1d7', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+    border-radius: 4px 4px 0 0;
+    padding: 5px 0 5px 10px;
 }
 .nav-catalog{
     padding: 10px 10px 20px 55px;
